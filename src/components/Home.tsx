@@ -28,7 +28,7 @@ const Home = () => {
           <div className="md:w-1/3 mt-8 md:mt-0 flex justify-center">
             <div className="w-64 h-64 rounded overflow-hidden border-2 border-gray-300 shadow-lg">
               <Image
-                src="/profile.png"
+                src="/Profile.png"
                 alt="Phonsawan Suarab"
                 width={300} // หรือขนาดที่คุณต้องการ
                 height={400}
