@@ -3,8 +3,21 @@ import './globals.css'
 import { ReactNode } from 'react'
 
 export const metadata = {
-  title: 'My Portfolio',
-  description: 'A showcase of my passion, creativity, and skills in modern web development and design.',
+  title: 'Portfolio',
+  description: 'My portfolio website',
+  openGraph: {
+    title: 'Portfolio',
+    description: 'My portfolio website',
+    images: [
+      {
+        url: '/Profile.png',
+        width: 1200,
+        height: 630,
+        alt: 'My Portfolio Profile',
+      }
+    ],
+    type: 'website',
+  },
 }
 
 interface RootLayoutProps {
