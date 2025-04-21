@@ -14,7 +14,7 @@ const Home = () => {
             <div className="mt-6 flex gap-4 justify-center md:justify-start">
               <a href="#contact" className="px-4 py-2 border border-blue-500 text-blue-500 rounded hover:bg-blue-500 hover:text-white transition-all">Contact</a>
               <a
-                href="/resume.pdf"
+                href="/Resume.pdf"
                 download
                 className="px-4 py-2 border border-gray-700 text-gray-700 rounded hover:bg-gray-700 hover:text-white transition-all flex items-center gap-2"
               >
