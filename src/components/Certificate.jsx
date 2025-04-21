@@ -66,7 +66,7 @@ const Certificate = () => {
   const visibleCertificate = showMore ? certificates : certificates.slice(0, visibleCount);
 
   return (
-    <div id="certificate" className="p-8 bg-white mt-10">
+    <div id="certificate" className="p-8  mt-10 ">
       <div className="flex items-center justify-center mb-6">
         <img
           src="assets/certificate.svg"

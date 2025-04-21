@@ -1,7 +1,17 @@
+'use client';
 import Image from 'next/image';
 const About = () => {
+
+  const skills = [
+    "HTML", "CSS", "Javascript", "React",
+    "Next JS", "TailwindCSS", "BootStrap", "Flowbite",
+    "Node JS", "PostgreSQL", "Sequelize"
+  ];
+
+
+
   return (
-    <div id="about" className="min-h-screen bg-white py-16">
+    <div id="about" className="min-h-screen py-16">
       <div className="container mx-auto px-4 max-w-4xl shadow-xl rounded-md py-8">
         <h2 className="text-3xl md:text-4xl font-bold mb-8 text-center">About Me</h2>
 
@@ -97,47 +107,16 @@ const About = () => {
             {/* my skills  */}
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4">My Skills</h3>
-              <div className="grid grid-cols-4 gap-3">
-                {/* row 1 */}
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  HTML
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  CSS
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  Javascript
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  React
-                </span>
-
-                {/* row 2 */}
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  Next JS
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  TailwindCSS
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  BootStrap
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  Flowbite
-                </span>
-
-                {/* row 3 */}
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  Node JS
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  PostgreSQL
-                </span>
-                <span className="border border-black px-3 py-1.5 rounded-md text-center text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105">
-                  Sequelize
-                </span>
+              <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                {skills.map((skill) => (
+                  <span
+                    key={skill}
+                    className="border border-black px-3 py-1.5 rounded-md text-center text-xs sm:text-sm transition-transform duration-300 hover:-translate-y-1 hover:scale-105"
+                  >
+                    {skill}
+                  </span>
+                ))}
               </div>
-
 
             </div>
 

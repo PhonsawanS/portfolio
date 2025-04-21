@@ -11,41 +11,41 @@ const Project = () => {
 
     const projects = [
         {
-            title: "project-1",
-            subtitle: "project-1",
-            link: "https://age-calculator-bd.vercel.app/",
-            image: "/About.jpg",
-        },
-        {
-            title: "project-2",
-            subtitle: "project-2",
-            link: "https://ticket-generate-bd.vercel.app/",
-            image: "/About.jpg",
-        },
-        {
-            title: "project-3",
-            subtitle: "project-3",
-            link: "https://contactform-bd.vercel.app/",
-            image: "/About.jpg",
-        },
-        {
-            title: "project-4",
-            subtitle: "project-4",
-            link: "https://contactform-bd.vercel.app/",
-            image: "/About.jpg",
-        },
-        {
-            title: "project-5",
-            subtitle: "project-5",
-            link: "https://contactform-bd.vercel.app/",
-            image: "/About.jpg",
-        },
-        {
-            title: "project-6",
-            subtitle: "project-6",
-            link: "https://contactform-bd.vercel.app/",
-            image: "/About.jpg",
-        },
+            title: "Digital Poverty Aid",
+            subtitle: "Phitsanulok Province",
+            link: "https://digital-poverty-aid-fontend.vercel.app/",
+            image: "/DigitalPovertyAid.png",
+        }
+        // {
+        //     title: "project-2",
+        //     subtitle: "project-2",
+        //     link: "https://ticket-generate-bd.vercel.app/",
+        //     image: "/About.jpg",
+        // },
+        // {
+        //     title: "project-3",
+        //     subtitle: "project-3",
+        //     link: "https://contactform-bd.vercel.app/",
+        //     image: "/About.jpg",
+        // },
+        // {
+        //     title: "project-4",
+        //     subtitle: "project-4",
+        //     link: "https://contactform-bd.vercel.app/",
+        //     image: "/About.jpg",
+        // },
+        // {
+        //     title: "project-5",
+        //     subtitle: "project-5",
+        //     link: "https://contactform-bd.vercel.app/",
+        //     image: "/About.jpg",
+        // },
+        // {
+        //     title: "project-6",
+        //     subtitle: "project-6",
+        //     link: "https://contactform-bd.vercel.app/",
+        //     image: "/About.jpg",
+        // },
     ]
 
 
@@ -62,9 +62,7 @@ const Project = () => {
                 <p className="text-center max-w-2xl mx-auto mt-5 mb-8 text-base md:text-lg">
                     My Web Projects
                 </p>
-
-
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-10">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-10 ">
                     {visibleProjects.map((project, index) => (
                         <div
                             key={index}

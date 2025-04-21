@@ -7,13 +7,16 @@ import Footer from "@/components/Footer"
 const page = () => {
   return (
     <>
+      <div className="bg-[#f4f4f4]">
         <Home />
         <About />
         <Project />
         <Certificate />
         <Contact />
-        <Footer/>
-        
+        <Footer />
+      </div>
+
+
     </>
 
   )
