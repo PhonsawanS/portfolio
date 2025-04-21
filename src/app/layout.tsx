@@ -10,7 +10,7 @@ export const metadata = {
     description: 'My portfolio website',
     images: [
       {
-        url: '/Profile.png',
+        url: 'https://portfolio-phonsawanss-projects.vercel.app/Profile.png',
         width: 1200,
         height: 630,
         alt: 'My Portfolio Profile',
