@@ -2,7 +2,7 @@
 Hello! Welcome to my personal portfolio.
 
 ## 🔗 Link to Portfolio
-[Click to view the Deployed Portfolio] (https://portfolio-seven-rose-76.vercel.app/)
+[Click to view the Deployed Portfolio] (https://portfolio-taupe-two-29.vercel.app/)
 
 
 ## 🚀 Features
