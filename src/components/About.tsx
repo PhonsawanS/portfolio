@@ -102,7 +102,7 @@ const About = () => {
             {/* <h3 className="text-2xl font-semibold mb-4">Web Developer & UI/UX Designer</h3> */}
             <p className="text-gray-700 mb-6">
               Hello! I&rsquo;m Phonsawan. I recently graduated and have a growing interest in back-end development.
-              I'm open to learning, practicing, and working with others to improve my skills step by step.
+              I&rsquo;m open to learning, practicing, and working with others to improve my skills step by step.
               I believe in learning by doing and look forward to opportunities where I can contribute and grow.
             </p>
 
