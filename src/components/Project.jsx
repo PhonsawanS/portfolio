@@ -14,7 +14,7 @@ const Project = () => {
             title: "Digital Poverty Aid",
             subtitle: "Phitsanulok Province",
             link: "https://digital-poverty-aid-fontend.vercel.app/",
-            image: "/DigitalPovertyAid.png",
+            image: "Project/DigitalPovertyAid.png",
         }
         // {
         //     title: "project-2",
