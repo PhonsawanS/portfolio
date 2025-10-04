@@ -20,7 +20,7 @@ const Project = () => {
             title: "Virtual School",
           subtitle: "E-Learning Platform",
              link: "https://develop.virtualschool.club/",
-            image: "/About.jpg",
+            image: "Project/VirtualSchoo.jpg",
          },
         // {
         //     title: "project-3",
