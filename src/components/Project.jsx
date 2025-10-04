@@ -15,13 +15,13 @@ const Project = () => {
             subtitle: "Phitsanulok Province",
             link: "https://digital-poverty-aid-fontend.vercel.app/",
             image: "Project/DigitalPovertyAid.png",
-        }
-        // {
-        //     title: "project-2",
-        //     subtitle: "project-2",
-        //     link: "https://ticket-generate-bd.vercel.app/",
-        //     image: "/About.jpg",
-        // },
+        },
+        {
+            title: "Virtual School",
+          subtitle: "E-Learning Platform",
+             link: "https://develop.virtualschool.club/",
+            image: "/About.jpg",
+         },
         // {
         //     title: "project-3",
         //     subtitle: "project-3",
